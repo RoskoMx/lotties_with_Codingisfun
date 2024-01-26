@@ -1,5 +1,3 @@
-pip install streamlit-lottie
-
 import json
 
 import requests  # pip install requests
