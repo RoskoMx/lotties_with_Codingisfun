@@ -7,11 +7,12 @@ from streamlit_lottie import st_lottie  # pip install streamlit-lottie
 # GitHub: https://github.com/andfanilo/streamlit-lottie
 # Lottie Files: https://lottiefiles.com/
 
+#Primera forma, agregamos animación desde archivo local
 def load_lottiefile(filepath: str):
     with open(filepath, "r") as f:
         return json.load(f)
 
-
+#2a forma agregamos animación desde la url
 def load_lottieurl(url: str):
     r = requests.get(url)
     if r.status_code != 200:
