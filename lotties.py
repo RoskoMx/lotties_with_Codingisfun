@@ -1,4 +1,4 @@
-!pip install streamlit-lottie
+pip install streamlit-lottie
 
 import json
 
